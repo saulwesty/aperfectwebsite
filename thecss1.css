@@ -1,0 +1,340 @@
+
+
+
+/*FONT*/
+/*font for the document*/
+@font-face {
+    font-family: docfont;
+    src: url(MouldyCheeseRegular-WyMWG.ttf);
+    
+}
+
+
+/*BODY*/
+/*set default margin for the whole document as 0*/
+body{
+    margin:0px;
+}
+
+
+/*TOOLBAR*/
+
+/*defining charecteristics of the toolbar*/
+.toolbar{
+    font-family: docfont;
+    background-color: rgb(0, 157, 255);
+    color: white;
+    text-align: right;
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding: 30px; 
+    
+}
+
+
+
+/*defining charecteristics of the company name & logo on the toolbar*/
+.titlename{
+    float: left;
+    font-size: 50px;
+    position: relative;
+}
+
+/*defining charecteristics of the image on the toolbar*/
+.img1{
+    height:60px;
+    position: relative;
+    float: left;
+    padding: 0px 20px;
+  
+   
+}
+
+
+/*TOP PHOTO*/
+/*first image on the website below the toolbar*/
+.topphoto{
+    background-image: url("youngpeoplehavingufn.jpg");
+    position: relative;
+    background-size:cover;
+    
+    
+    
+}
+
+/*SECOND PART*/
+/*information below the top part of the website*/
+.bluetext{
+    background-color:rgb(0, 157, 255);
+    font-family: docfont;
+    text-align: center;
+    font-size: 80px;
+    color: white;
+    padding:0px 10px;
+    float: left;
+    max-width: 100%;
+   
+}
+
+/*first text box within bluetext*/
+.firsttextbox{
+    background-color: rgb(82, 189, 254);
+    display: inline-block;
+    max-width: 600px;
+    margin:4.5% 0%;
+    vertical-align:middle;
+       
+       
+    
+    
+   
+    
+}
+
+/*first image box within bluetext*/
+.firstimagebox{
+    display: inline-block;
+    width:40%;
+    margin:4.5% 0%;
+    vertical-align:middle;
+    max-width: 700px;  
+    min-width: 350px;
+    padding: 10px;
+    
+    
+    
+   
+    
+    
+}
+
+
+
+
+/*THIRD PART*/
+/*white section with some reviews and ratings*/
+
+.whitetextbox{
+    font-family: docfont;
+    text-align: center;
+    font-size: 80px;
+    background-color: aliceblue;
+    padding: 10px 10px;
+    
+    
+}
+
+/*first text box within white*/
+.secondtextbox{
+    background-color: rgb(0, 157, 255);
+    display: inline-block;
+    max-width: 600px;
+    margin:4.5% 0%;
+    
+    
+}
+
+
+/*FOURTH PART*/
+/*A box with information about next steps*/
+.bluetexttwo{
+   
+    background-color:rgb(0, 157, 255);
+    font-family: docfont;
+    text-align: center;
+    font-size: 80px;
+    color: white;
+    padding:0px 10px;
+    max-width: 100%;
+    
+   
+}
+
+/*first text box within contact us section*/
+.thirdtextbox{
+    background-color: rgb(82, 189, 254);
+    display: inline-block;
+    padding: 0px 10px;
+    vertical-align: middle; 
+    max-width: 600px;
+    margin:4.5% 0%;
+    
+    
+}
+
+
+/*first image box within bluetext*/
+.secondimagebox{
+    display: inline-block;
+    width:40%;
+    margin:4.5% 0%;
+    min-width: 350px;
+    vertical-align: middle;  
+    max-width: 700px;  
+   
+    
+}
+
+
+
+/*BOTTOM PART*/
+/*bar at the bottom with further details and page links*/
+.bottomphoto{
+    background-image: url(tryopaque.png);
+    padding:0% 20%;
+    position: relative;
+    background-size:cover;
+    
+    
+}
+
+
+
+
+
+
+
+/*IMG*/
+/*image styling for images nexted in bluetext*/
+.img2{
+    display: inline-block;
+    width:80%;
+    margin-right:0%;
+}
+
+
+
+/*TEXT*/
+/*title text to overlay images: BIG FONT*/
+
+@media screen and (min-width: 800px) {
+    h1{
+        font-family: docfont;
+        font-size: 100px;
+        color: black;
+        text-align: center;
+        margin:0px;
+        padding:10px;
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+}
+
+
+/*title text to overlay images: SMALL FONT*/
+@media screen and (max-width: 800px) {
+    h1{
+        font-family: docfont;
+        font-size: 60px;
+        color: black;
+        text-align: center;
+        margin:0px;
+        padding:10px;
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+}
+
+
+
+
+
+
+/*title text for textboxes*/
+h2{ 
+    font-family: docfont;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    letter-spacing: 0.5px;
+    padding:0px 5px;
+    
+    
+}
+
+/*small text for textboxes*/
+h3{
+    font-family: docfont;
+    font-size: 22.5px;
+    color: white;
+    text-align: center;
+    margin:10% 15%;
+    letter-spacing: 0.5px;
+    
+}
+
+/*regular text for the bottom bar*/
+h4{
+    font-family: docfont;
+    font-size: 25px;
+    text-align: right;
+    color:black;
+   
+    
+    
+}
+
+
+
+/*title for the bottom bar*/
+h5{
+    font-family: docfont;
+    font-size: 30px;
+    text-align: left;
+    color:black;
+
+    
+}
+
+
+
+
+/*FEATURES*/
+/*button mechanism*/
+.btn{
+    font-family: docfont;
+    background-color: inherit;
+    color: white;
+    text-align: right;
+    font-size: 17px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border:none;
+    
+}
+
+/*button hover*/
+.btn:hover{
+    color: rgb(130, 204, 251);
+    font-size:20px;
+    transition-delay:0.25s;
+    
+}
+
+/*button mechanism for bottom*/
+.btnbtm{
+    font-family: docfont;
+    background-color: inherit;
+    color: black;
+    float:right;
+    font-size: 20px;
+    cursor: pointer;
+    border:none;
+   
+    
+}
+
+/*button hover for bottom*/
+.btnbtm:hover{
+    color: grey;
+    font-size:20px;
+    transition-delay:0.25s;
+    
+}
+
+
+/*
+/*
+/*
+/*IDEAS
+- opaqueness flows through the image top to bottom
+
+*/
